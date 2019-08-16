@@ -1,0 +1,34 @@
+{
+  "_from": "github:TheThingBox/ttb-settings-wizard-view-gibson#5a67fdf",
+  "_id": "ttb-settings-wizard-view-gibson@0.1.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ttb-router/ttb-settings-wizard-view-gibson",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "ttb-settings-wizard-view-gibson@github:TheThingBox/ttb-settings-wizard-view-gibson#5a67fdf",
+    "name": "ttb-settings-wizard-view-gibson",
+    "escapedGibson": "ttb-settings-wizard-view-gibson",
+    "rawSpec": "github:TheThingBox/ttb-settings-wizard-view-gibson#5a67fdf",
+    "saveSpec": "github:TheThingBox/ttb-settings-wizard-view-gibson#5a67fdf",
+    "fetchSpec": null,
+    "gitCommittish": "5a67fdf"
+  },
+  "_requiredBy": [
+    "/ttb-router"
+  ],
+  "_resolved": "github:TheThingBox/ttb-settings-wizard-view-gibson#5a67fdf412194de5f4a935443f24792047204d5d",
+  "_spec": "ttb-settings-wizard-view-gibson@github:TheThingBox/ttb-settings-wizard-view-gibson#5a67fdf",
+  "_where": "/root/thethingbox/node_modules/ttb-router",
+  "bundleDependencies": false,
+  "dependencies": {
+    "mqtt": "^3.0.0",
+    "ttbd-interface-utils": "github:TheThingBox/ttbd-interface-utils#6dfcef9"
+  },
+  "deprecated": false,
+  "description": "A module for the settings wizard route to use for thethingbox",
+  "main": "api.js",
+  "name": "ttb-settings-wizard-view-gibson",
+  "version": "0.1.1"
+}

@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col m3 hide-on-small-only"></div>
+  <form action="#" class="col s12 m6 gibson_container">
+    <div class="card ttb-color-light-grey">
+      <div class="card-content  ttb-color-dark-grey-text">
+        <div class="row" style="text-align:center;">
+            <p id="tsa-id"> <%= lang('id') %> : </p>
+            <p id="tsa-name"><%= lang('hostname') %> : </p>
+            <p id="associated-users"><%= lang('associatedUsers') %> : </p>
+          <div class="input-field col s12">
+            <label for="zoib-login" class="active">Login Gibson</label>
+            <input id="zoib-login" type="text" class="validate valid">
+          </div>
+          <a class="waves-effect waves-light btn" id="wizard_gibson_form_btn_sync">Enregistrer le TSA</a>
+
+          <div style="display: none;" id="pairing-loader" class="preloader-wrapper big active">
+              <div class="spinner-layer spinner-blue-only">
+                  <div class="circle-clipper left">
+                      <div class="circle"></div>
+                  </div><div class="gap-patch">
+                      <div class="circle"></div>
+                  </div><div class="circle-clipper right">
+                      <div class="circle"></div>
+                  </div>
+              </div>
+          </div>
+          <p style="display: none;" id="pairing-msg"><%= lang('pairing') %>...</p>
+          <a style="display: none;" class="waves-effect waves-light btn" id="cancel-btn"><%= lang('cancel') %></a>
+        </div>
+      </div>
+      <div id="wizard_<%= name %>_ignore_wrapper" class="displayable-60 ignore-wrapper tooltiped" data-position="top" data-tooltip="<%= lang('click_unignore') %>">
+      </div>
+    </div>
+  </form>
+</div>
+<div id="wizard_<%= name %>_footer" class="row">
+</div>

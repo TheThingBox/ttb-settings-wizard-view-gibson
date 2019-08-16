@@ -1,0 +1,17 @@
+{
+  "name": "Appairage",
+  "id": "Identifiant de l'appareil",
+  "isok_hostname_title": "Nom de l'appareil",
+  "isok_hostname_corpus": "Vous devez renseigner le nom de l'appareil.",
+  "hostname": "Nom de l'appareil",
+  "click_unignore": "Clique pour ne plus ignorer cette étape",
+  "resume_rename": "Votre %{device} sera renommé en <b>%{hostname}</b>.",
+  "resume_not_renamed": "Votre %{device} ne sera pas renommé.",
+  "answer_name_changed": "L'appareil a été renommé en '%{name}'",
+  "answer_name_not_set": "L'appareil ne peut pas être renommé",
+  "answer_name_not_valid": "Le nom '%{name}' n'est pas valide",
+  "associatedUsers": "Utilisateurs associés",
+  "pairing": "Appareillage",
+  "cancel": "Annuler",
+  "associationRegistered": "Appareillage réussi"
+}

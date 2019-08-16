@@ -1,0 +1,17 @@
+{
+  "name": "Pairing",
+  "id": "Device id",
+  "isok_hostname_title": "Device name",
+  "isok_hostname_corpus": "You have to set the device name.",
+  "hostname": "Device name",
+  "click_unignore": "Click to do not ignore this step",
+  "resume_rename": "Your %{device} will be renamed to <b>%{hostname}</b>.",
+  "resume_not_renamed": "Your %{device} will not be renamed.",
+  "answer_name_changed": "The device name was changed for '%{name}'",
+  "answer_name_not_set": "The device name cannot be set",
+  "answer_name_not_valid": "The device name '%{name}' is not valid",
+  "associatedUsers": "Associated users",
+  "pairing": "Pairing",
+  "cancel": "Cancel",
+  "associationRegistered": "Successfull pairing"
+}
